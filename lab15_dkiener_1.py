@@ -1,3 +1,13 @@
+"""
+Ohio Unemployment Graph
+
+David Kiener
+08-09-2025
+
+This progam graphs the Ohio unemployment rate from 1976 to 2022 obtained by FRED Economic Data.
+
+"""
+
 from pathlib import Path
 import csv
 import matplotlib.pyplot as plt
