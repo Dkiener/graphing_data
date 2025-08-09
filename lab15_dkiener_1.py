@@ -36,11 +36,9 @@ for row in reader:
         dates.append(current_date)
         percentages.append(percent)
 
-# plt.style.use('dark_background')
 figure, graph = plt.subplots()
 
 graph.plot(dates, percentages, color='blue')
-# graph.fill_between(dates, high_temps, low_temps, color='blue', alpha=0.5)
 
 graph.set_title('Ohio Unemployment (by Month): 1976 - 2022', fontsize='24')
 graph.set_xlabel('Date', fontsize=16)
